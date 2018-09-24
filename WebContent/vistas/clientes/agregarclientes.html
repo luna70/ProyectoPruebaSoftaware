@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Expires" content="0" /> 
+	<meta http-equiv="Pragma" content="no-cache" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon.png">
+    <title>Material Pro Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../../css/style.css" rel="stylesheet">
+    <!-- You can change the theme colors from here -->
+    <link href="../../css/blue.css" id="theme" rel="stylesheet">
+</head>
+
+<body>
+				 <div class="row">
+                    <!-- column -->
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-block">
+      			<h4 class="card-title" style="color:#3498DB">AGREGAR CLIENTE</h4>
+                    <div class="col-lg-7 col-xlg-9 col-md-7">
+                        <div class="card">
+                            <div class="card-block">
+                                <form class="form-horizontal form-material" action="guardar" method="post">
+                                    <div class="form-group">
+                                        <label class="col-md-12">CI<span style="color: red;">*</span></label>
+                                        <div class="col-md-12">
+                                            <input type="text" name="ci" class="form-control form-control-line">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-12">NOMBRES<span style="color: red;">*</span></label>
+                                        <div class="col-md-12">
+                                            <input type="text" name="nombre" class="form-control form-control-line">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-12">AP. PATERNO<span style="color: red;">*</span></label>
+                                        <div class="col-md-12">
+                                            <input type="text" name="ap" class="form-control form-control-line">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-12">AP. MATERNO<span style="color: red;">*</span></label>
+                                        <div class="col-md-12">
+                                            <input type="text" name="am" class="form-control form-control-line">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-12">SEXO<span style="color: red;">*</span></label>
+                                        <div class="col-md-12">
+                                        <!-- Material checked -->
+										<div class="form-check">
+  										<input type="radio" class="form-check-input" id="materialChecked" name="sexo" value="m" checked>
+  										<label class="form-check-label" for="materialChecked">Masculino</label>
+										</div>                                                                  
+                                        <div class="form-check">
+   										<input type="radio" class="form-check-input" id="materialUnchecked" name="sexo" value="f">
+  										<label class="form-check-label" for="materialUnchecked">Femenino</label>
+										</div>
+										</div>
+                                    </div>                                    
+                                    <div class="form-group">
+                                        <label class="col-md-12">TELEFONO<span style="color: red;">*</span></label>
+                                        <div class="col-md-12">
+                                            <input type="text" name="telef" class="form-control form-control-line">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-12">DIRECCION<span style="color: red;">*</span></label>
+                                        <div class="col-md-12">
+                                            <input type="text" name="dir" class="form-control form-control-line">
+                                        </div>
+                                    </div>
+                                
+                                    <label for="example-email" class="col-md-12">DATOS  DE EMPRESA:</label>
+                                    
+                                    <div class="form-group">
+                                        <label class="col-md-12">EMPRESA</label>
+                                        <div class="col-md-12">
+                                            <input type="text" name="nombreemp" class="form-control form-control-line">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-12">NIT</label>
+                                        <div class="col-md-12">
+                                            <input type="text" name="nit" class="form-control form-control-line">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-12">TELF. DE EMPRESA</label>
+                                        <div class="col-md-12">
+                                            <input type="text" name="telfemp" class="form-control form-control-line">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="example-email" class="col-md-12">E-MAIL DE EMPRESA</label>
+                                        <div class="col-md-12">
+                                            <input type="email" placeholder="" class="form-control form-control-line" name="example-email" id="example-email">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-12">DIRECCION DE EMPRESA</label>
+                                        <div class="col-md-12">
+                                            <input type="text" name="dir" class="form-control form-control-line">
+                                        </div>
+                                    </div>                   
+
+                                    <div class="form-group" align="right">
+                                        <div class="col-sm-12">
+                                            <a href="lista" class="btn btn-danger">CANCELAR</a>
+                                            <button class="btn btn-success">GUARDAR</button>
+                                            
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+              </div>
+            </div>
+         </div>
+            
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/tether.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/jquery.slimscroll.js"></script>
+    <script src="../../js/waves.js"></script>
+    <script src="../../js/sidebarmenu.js"></script>
+    <script src="../../js/custom.min.js"></script>
+
+</body>
+
+</html>
